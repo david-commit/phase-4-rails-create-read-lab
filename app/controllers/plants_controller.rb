@@ -1,4 +1,5 @@
 class PlantsController < ApplicationController
+ wrap_parameters format: []
 
  def index
   plants = Plant.all
